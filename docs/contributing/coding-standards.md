@@ -144,7 +144,7 @@ Bad:
 ```scss
 .nhsuk-checkboxes__conditional {
   ...
-  .js-enabled &--hidden {
+  .nhsuk-example &--hidden {
     ...
   }
  ...
@@ -158,7 +158,7 @@ Good:
   ...
 }
 
-.js-enabled .nhsuk-checkboxes__conditional--hidden {
+.nhsuk-example .nhsuk-checkboxes__conditional--hidden {
   ...
 }
 ```

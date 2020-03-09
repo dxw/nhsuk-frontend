@@ -5,6 +5,7 @@
 :wrench: **Fixes**
 
 - Breadcrumb - fix the text colour on :focus:hover ([Issue 589](https://github.com/nhsuk/nhsuk-frontend/issues/589))
+- Checkboxes and Radios - remove unused styles and markup for conditional reveals, as there is no JavaScript code for this functionality these styles aren't required. This removes the need for code to check if JavaScript is enabled or not, with the `js-enabled` class.
 
 ## 3.0.3 - 17 February 2020
 
